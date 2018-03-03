@@ -1,0 +1,34 @@
+﻿<resources>
+  <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimary</item>
+    <item name="android:colorAccent">@color/colorPrimary</item>
+    <item name="android:windowBackground">@color/colorPrimary</item>
+    <item name="toolbarStyle">@style/Widget.Toolbar</item>
+    <item name="editTextStyle">@style/EditTextDefault</item>
+  </style>
+  
+  <style name="EditTextDefault" parent="android:Widget.EditText">
+    <item name="android:textColor">@color/colorPrimaryText</item>
+    <item name="android:backgroundTint">@color/colorPrimaryText</item>
+  </style>
+
+  <style name="Widget.Toolbar" parent="@style/Widget.AppCompat.Toolbar">
+    <item name="contentInsetStart">0dp</item>
+  </style>
+
+  <style name="ActionBarTitle" parent="@android:style/TextAppearance.Medium">
+    <item name="android:textSize">@dimen/action_bar_title</item>
+    <item name="android:textAllCaps">true</item>
+    <item name="android:textColor">@color/colorPrimaryText</item>
+  </style>
+
+  <style name="SessionInfo" parent="@android:style/TextAppearance">
+    <item name="android:textSize">@dimen/session_text</item>
+    <item name="android:textColor">@color/colorSessionText</item>
+  </style>
+
+  <style name="LoaderTheme" parent="ThemeOverlay.AppCompat.Light">
+    <item name="colorAccent">@color/colorPrimary</item>
+  </style>
+</resources>

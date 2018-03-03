@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="action_bar_margin">10dp</dimen>
+  <dimen name="action_bar_title">18dp</dimen>
+
+  <dimen name="session_card_margin">10dp</dimen>
+  <dimen name="session_view_guide_margin">50dp</dimen>
+
+  <dimen name="session_text">12dp</dimen>
+</resources>
